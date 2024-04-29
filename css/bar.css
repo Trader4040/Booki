@@ -1,0 +1,31 @@
+
+
+
+  /* .search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #0065FC;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box :hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+}
+.search-btn{
+    color: #0065FC;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+} */
