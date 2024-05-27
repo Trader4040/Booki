@@ -17,25 +17,45 @@
 <body>
     <div class="main-container">
         <header>
-            <h1>Booky</h1><br>
-            <h2>Trouvez votre hebergement pour des vacances de rêve</h2>
-            <h5>En plein centre ville ou en pleine nature</h5>
+                <nav class="nav-bar">
+                    <a class="hébergements" href="#">Hébergements</a>
+                    <a class="activités02" href="#">Activités</a>
+                </nav>
+            </span>
+            
+            <h2>Booki</h2>
+            <h3>Trouvez votre hebergement pour des vacances de rêve</h3>
+            <div class="sub-title">En plein centre ville ou en pleine nature</div>
 
             <!-- searchbar -->
-            <div  class="box">
-                <input type="text" placeholder="Marseille, France">
-                <a href="#">
-                    <i class="fas fa-search"></i>
-                </a><a href="btn">Recherche</a>
-            </div><br>
-            <strong>Filtres</strong>
-            <a href="" class="btn">Economique</a>
-            <a href="" class="btn">Familiale</a>
-            <a href="" class="btn">Romantique</a>
-            <a href="" class="btn">Nos pépites</a><br><br><br><br>
-            Plus de 500 logements sont disponibles dans cette ville <br><br><br>
+            <form class="search-bar">
+                <div  class="box">
+                    <div class="map-icon"><i class="fa-solid fa-location-dot"></i>
 
+                    <input type="text" placeholder="Marseille, France">
+
+                    <!-- <div class="search-icon"><i class="fas fa-search"></i></div> -->
+                    
+                    <button type="submit"><strong>Rechercher</strong></button></div>
+                </div>
+           </form>
+            <div class="filter-bar">
+                <strong>Filtres</strong>
+                <div class="filter-button">
+                    <div class="filter-part">
+                    <a href="" class="btn"><i class="fa-solid fa-money-bill-wave"></i>Economique</a>
+                    <a href="" class="btn"><i class="fa-solid fa-person"></i>Familiale</a>
+                    </div>
+                
+                    <div class="filter-part">
+                    <a href="" class="btn"><i class="fa-solid fa-heart"></i>Romantique</a>
+                    <a href="" class="btn"><i class="fa-solid fa-fire"></i>Nos pépites</a>
+                    </div>
+                </div>
+            </div>
+                <div class="info"><i class="fa-solid fa-circle-info"></i> Plus de 500 logements sont disponibles dans cette ville </div>
         </header>
+
         <main>
             <div class="hebergements-and-populaires">
 
@@ -233,9 +253,10 @@
                         </a>
                     </div>
                 </section> 
-            </div>
+            </div><br><br>
 
             <!-- Activités à Marseille -->
+            <div class="activités-à-marseille"><h2>Activités à Marseille</h2></div>
             <div class="content">
                 <section class="activités">
                     <a href="#">
@@ -268,7 +289,7 @@
                                 <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Parc National des Calanques</h3>
+                                        <h3 class="card-title">Parc national des Calanques</h3>
                                     </div>
                                 </div>
                             </article>
@@ -280,7 +301,7 @@
                                 <img src="./images/activites/florian-wehde.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Notre Dame de la Garde</h3>
+                                        <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                                     </div>
                                 </div>
                             </article>
@@ -288,10 +309,30 @@
                     </a> 
                 </section>
             </div>
-        </main><br>
+        </main><br><br>
         
         <footer>
-            <div class="">A Propos</div>
-        </footer>   
+            <div class="footer">
+                <section class="footer">
+                    <div class="card-txt">
+                        <h1 class="card-title">A Propos</h1>
+                        <a href="#">Fonctionnement du site</a>
+                        <a href="#">Conditions Générales</a>
+                        <a href="#">Données de confidentialité</a>
+                    </div>
+                    <div class="card-txt">
+                        <h1 class="card-title">Nos hebergements</h1>
+                        <a href="#">Charte qualité</a>
+                        <a href="#">Proposer votre Hôtél</a>
+                    </div>
+                    <div class="card-txt">
+                        <h1 class="card-title">Assistance</h1>
+                        <a href="#">Centre d'aide</a>
+                        <a href="#">Nous contacter</a><br>
+                    </div>
+                </section>
+            </div>
+        </footer> 
+    </div>  
 </body>
 </html>
