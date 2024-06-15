@@ -3,26 +3,21 @@
     font-family: 'Raleway', sans-serif;
     display: flexbox;
 }
-
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
-
 .fa-solid {
     color: var(--main-color);
 }
-
 .nav-bar{
-    display: flexbox;
     justify-content: flex-end;                                                                  /*positionner l'element horizontalement*/
     display:flex;
     text-align: right;
     margin-right:  none;
 }
 .nav-hebergements{
-    display: flexbox;
     padding: 10px;
     margin-right:   20px;
 }
@@ -33,7 +28,6 @@
 }
 .nav-activites{
     margin-left: 30px;
-    display: flexbox;
     padding: 10px;
     margin-right:   20px;
 }
@@ -45,10 +39,8 @@
 .magnifying-glass i{
     display: none;
 }
-
 header{
     align-items: center;
-    display: flexbox;
 }
 header h2{
     margin-top: 0px;
@@ -56,16 +48,12 @@ header h2{
     
 }
 header h3{
-    display: flexbox;
     margin-bottom: 2px;
 }
 .sub-title{
-    display: flexbox;
     margin-bottom: 15px;
 }
-
 button{
-    display: flexbox;
     font-size: large;
     border: none;
     color: #fff;
@@ -74,25 +62,18 @@ button{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
 .filter-name{
-    display: flexbox;
     padding:10px;
 }
-
 .filter-bar{
-    display: flexbox;
     display: flex;
     margin-top: 25px;
 }
-
 .filter-button{
-    display: flexbox;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
 .box{
     margin-left: 0px;
     margin-top: 20px;
@@ -121,19 +102,16 @@ button{
       width: 400px;
   } */
   .box a .fas{
-      display: flexbox;
       color: #0065FC;
       font-size: 18px;
   }
   .box i{
-    display: flexbox;
     color: #000;
     background-color: rgb(248, 243, 243);
     padding: 18px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
-
   .btn{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -149,7 +127,6 @@ button{
     color: #000;
     cursor: pointer;
     margin: 5px;
-    display: flexbox;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -162,46 +139,36 @@ button{
     transform: scale(1.1);
     color: #000; */
     background-color:#b7d4fd;
-    display: flexbox;
   }
   .btn i{
-    display: flexbox;
     padding: 10px;
     margin-bottom: 50px;
   }
   .info{
-    display: flexbox;
     margin-bottom: 30px;
   }
 
   .hébergements{
-    display: flexbox;
     margin: 10px;
     margin-right: 60px;
     justify-content: space-between;
   }
   .hébergements:hover{
-    display: flexbox;
     border-top:solid;
     color: #0065FC;
   }
   .activités02{
-    display: flexbox;
     margin: 10px;
     justify-content: center;
   }
   .activités02:hover{
-    display: flexbox;
    border-top:solid;
    color: #0065FC;
   }
-  
-
 body {
     display: flexbox;
     justify-content: center;
 }
-
 .main-container {
     display: flexbox;
     width: 100%;
@@ -209,88 +176,53 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
 a {
-    display: flexbox;
     color: inherit;
     text-decoration: none;
     border: #0065FC;
     border-radius: 5%;
 }
-
 .section-title {
-    display: flexbox;
     margin: 0;
     font-size: 22px;
 }
-
 .card {
-    display: flexbox;
     background-color: white;
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
-
 .card img {
-    display: flexbox;
     object-fit: cover;
 }
-
 .card-title {
-    display: flexbox;
     font-size: 16px;
 }
-
 .euro {
-    display: flexbox;
     font-weight: 700;
 }
-
 .neutral-star {
-    display: flexbox;
     color: var(--main-bg-color)
 }
-
-/* Hebergements à Marseille */
-/* .hebergements-à-marseille{
-    display: block;
-    justify-content:space-between;
-}
-
-.hebergements-à-marseille section {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding:30px;
-    box-sizing:inherit;
-} */
-/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
-    display: flexbox;
     display: flex;
     justify-content: space-between;
 }
-
 .hebergements-and-populaires section {
-    display: flexbox;
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
-
 /****** Hebergements ***********/
 .hebergements-cards{
-    display: flexbox;
     display: flex;
         /* burin */
 }
 .hebergements {
-    display: flexbox;
     width: 100%;
 }
 .hebergements-à-marseille-title{
-    display: flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -298,7 +230,6 @@ a {
     padding-bottom: 20px;
 }
 .hebergements-cards .card {
-    display: flexbox;
     /* height: 150px;                                                                                                grandi vers le bas */
     width: 90%;                                                                                                  /*grandi vers les côtés*/
     display: block;                                                                                  /* positionner l'image vers le haut */
@@ -308,14 +239,12 @@ a {
     justify-content: center;                                                                                      /*distancer les cartes*/
 }
 .hebergements-cards img{
-    display: flexbox;
     width: 100%;                                                                                                     /*taille de l'image*/
     height: 136px;
     border-top-left-radius: 20px;
     border-top-right-radius:  20px;
 }
 .hebergements-cards .card-content{
-    display: flexbox;
     width: 200px;                                                                               /*grandi vers les côtés, très dificile*/
     padding-left: 15px;
     display: flex;
@@ -324,53 +253,39 @@ a {
     box-sizing: border-box;
 }
 .hebergements-cards .card-title {
-    display: flexbox;
     font-size: small;
     margin-top: 10px;
     margin-bottom: 4px;
 }
 .hebergements-cards .card-subtitle {
-    display: flexbox;
     font-size: 12px;
     margin: 0;
 }
-
 .hebergements-cards .card-rating {
-    display: flexbox;
     margin-bottom: 5px;
 }
-
 /****** Populaires ***********/
 .populaires {
-    display: flexbox;
     width: max-content;
     margin-left: 35px;                                                                                           /*distance à gauche*/
 }
-
 .populaires-title {
-    display: flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .populaires-cards .card {
-    display: flexbox;
     width: 300px;
     display: flex;
     margin-top: 33px;
 }
-
 .populaires-cards img {
-    display: flexbox;
     width: 100px;                                                                                            /*taille de l'image égal*/
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-
 .populaires-cards .card-content {
-    display: flexbox;
     width: 67%;
     padding-left: 15px;
     display: flex;
@@ -378,33 +293,23 @@ a {
     justify-content: space-between;
     box-sizing: border-box;
 }
-
 .populaires-cards .card-title {
-    display: flexbox;
     font-size: small;
     margin-top: 10px;
     margin-bottom: 4px;
 }
-
 .populaires-cards .card-subtitle {
-    display: flexbox;
     font-size: 12px;
     margin: 0;
 }
-
 .populaires-cards .card-rating {
-    display: flexbox;
     margin-bottom: 5px;
 }
-
 /* Activités à Marseille */
 .activités-à-marseille{
-    display: flexbox;
     margin-left: 20px;
 }
-
 .container {
-    display: flexbox;
     display: flex;
     width: 100%;
     max-width: 1440px;
@@ -412,34 +317,28 @@ a {
     box-sizing: border-box;
 }
 .activités {
-    display: flexbox;
     width: max-content;
     display: flex;
     width: 100px;
 }
-    
 .activités-title {
-    display: flexbox;
     display: flex;
     justify-content: space-around;
     align-items: center;    
 }
 .activités-cards .card {
-    display: flexbox;
     display: block;
     padding: 0;
     margin: 15px;
     margin-bottom: 70px;
 }
 .activités-cards img {
-    display: flexbox;
     width: 250px;                                                                                            /*taille de l'image égal*/
     height: 360px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .activités-cards .card-content {
-    display: flexbox;
     width: 97%;
     padding-left: 15px;
     display: flex;
@@ -448,24 +347,18 @@ a {
     box-sizing: border-box;
 }
 .activités-cards .card-title {
-    display: flexbox;
     font-size: 15px;
     display: flex; 
 }
 .content{
-    display: flexbox;
     margin-left: 10px;
 }
-
 footer{
-    display: flexbox;
     align-items: start;
     text-align:right;
     justify-content: start;
 }
-
 footer section{
-    display: flexbox;
     width: 100%;                                                                         /* crée un scrol-bar si width esl trop elevé*/
     background-color: #f2f2f2;
     display:flex;
@@ -478,9 +371,7 @@ footer section{
     padding-left: 20px;
     padding-bottom: 10px;
 }
-
 footer a{
-    display: flexbox;
     align-items: start;
     flex-direction:row;
     display: flex;
@@ -499,30 +390,21 @@ footer a{
     body{
         display: flexbox;
     }
-
-    .main-container{
-        display: flexbox;
-    }
     .nav-bar{
-        display: flexbox;
         justify-content: flex-end;
         display:flex;
         text-align: right;
     }
-    
     .nav-hebergements:hover{
         padding: 9px;
         border-top: solid;
         color: #0065FC;
-        display: flexbox;
     }
     .nav-activites:hover{
         padding: 9px;
         border-top: solid;
         color: #0065FC;
-        display: flexbox;
     }
-
     .btn{
         font-size: 12px;
     }
@@ -540,7 +422,6 @@ footer a{
         text-align: start;
     }
     .filter-button{
-        display: flexbox;
         text-align: start;
         justify-content:flex-start;      
         align-items:start;
@@ -551,23 +432,16 @@ footer a{
         align-items: flex-start;
         text-align: left;
     }
-    
     .info{
-        display: flexbox;
         margin-bottom: 30px;
     }
-   
-    
     /*Populaires*/
     .populaires {
-        display: flexbox;
         margin-top: 40px;
         margin-left: 5px;
         width: 100%;
     }
-
     .populaires-cards {
-        display: flexbox;
         display: flex;
         flex-direction: row;
         padding-left: 5px;
@@ -575,50 +449,37 @@ footer a{
         box-sizing: border-box;
     }
     .populaires-cards .card{
-        display: flexbox;
         width: 100%;
     }
-
     .populaires-cards a {
-        display: flexbox;
         width: 40%;
         margin-right: 20px;
     }
-
     .populaires-cards .card-title {
-        display: flexbox;
         margin-top: 10px;
         margin-bottom: 4px;
         font-size: 18px;
     }
-
     .populaires-cards .card-subtitle {
-        display: flexbox;
         font-size: 13px;
         margin: 0;
     }
     .populaires-cards .card-rating {
-        display: flexbox;
         margin-bottom: 5px;
     }
     .btn i{
-        display: flexbox;
         margin-top: 20px;
     }
-
      /*hebergements*/
      .hebergements-and-populaires {
-        display: flexbox;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
     .hebergements {
-        display: flexbox;
         width: 100%;
     }
     .hebergements-cards .card {
-        display: flexbox;
         /* height: 150px;                                                                                           grandi vers le bas */
         width: 90%;                                                                                             /*grandi vers les côtés*/
         display: block;                                                                             /* positionner l'image vers le haut */
@@ -628,23 +489,11 @@ footer a{
         align-items: center;  
         justify-content: center;                                                                                 /*distancer les cartes*/
     }
-    .hebergements-cards .card-content{
-        display: flexbox;
-    }
-    .hebergements-cards img{
-    display: flexbox;
-
-    }
-    
-
     /*activités à marseille*/
     .activités-à-marseille{
-        display: flexbox;
         margin-left: 20px;
     }
-    
     .container {
-        display: flexbox;
         display: flex;
         width: 100%;
         max-width: 1440px;
@@ -652,33 +501,27 @@ footer a{
         box-sizing: border-box;
     }
     .activités {
-        display: flexbox;
         width: max-content;
         display: flex;
         width: 100px;
-    }
-        
+    } 
     .activités-title {
-        display: flexbox;
         display: flex;
         justify-content: space-around;
         align-items: center;    
     }
     .activités-cards .card {
-        display: flexbox;
         display: block;
         padding: 0;
         margin: 15px;
     }
     .activités-cards img {
-        display: flexbox;
         width: 170px;                                                                                   /*taille de l'image égal*/
         height: 180px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
     .activités-cards .card-content {
-        display: flexbox;
         width: 97%;
         padding-left: 15px;
         display: flex;
@@ -687,17 +530,13 @@ footer a{
         box-sizing: border-box;
     }
     .activités-cards .card-title {
-        display: flexbox;
         font-size: 16px;
         display: flex; 
     }
     .content{
-        display: flexbox;
         margin-left: 10px;
     }
-
     footer{
-        display: flexbox;
         margin-top: 20px;
         justify-content: space-between;
         flex-direction: row;
@@ -705,11 +544,8 @@ footer a{
         display: flex;
         text-align:right;
     }
-    
     footer section{
-        display: flexbox;
         justify-content: space-between;
-        display: flexbox;
         background-color: #f2f2f2;
         display:flex;
         flex-direction:row;
@@ -720,9 +556,7 @@ footer a{
         padding-bottom: 20px;
         width: 85%;
     }
-    
     footer a{
-        display: flexbox;
         justify-content: space-between;
         align-items: start;
         text-align: start;
@@ -734,24 +568,18 @@ footer a{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
         header h2{
             margin-top: 20px;
             margin-bottom: 20px;  
-        }
-        .main-container{
-            display: flexbox;
         }
         body{
             display: flexbox;
             display: flex;
         }
         button{
-            display: flexbox;
             display: none;
         }
         .magnifying-glass i{
-            display: flexbox;
             display: inline;
             color: #fff;
             background-color: #0065FC;
@@ -759,15 +587,12 @@ footer a{
             border-bottom-right-radius: 15px;
         }
         .containers{
-            display: flexbox;
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
             justify-content: center;
         }
-        
         .title-page{
-            display: flexbox;
             justify-content: center;
             align-items: center;
             font-size: 20px;
@@ -797,17 +622,12 @@ footer a{
             border-bottom: #0065FC solid;
         }
         .text{
-            display: flexbox;
             font-size: 20px;
         }
         .sub-text{
-            display: flexbox;
             margin-bottom: 20px;
         }
-        
-        
         button{
-            display: flexbox;
             font-size: 2px;
             border: none;
             color: #fff;
@@ -818,24 +638,17 @@ footer a{
             border-top-left-radius: 15px;
             border-bottom-left-radius: 15px ;
         }
-        .filter-name{
-            display: flexbox;
-        }
         .filter-bar{
-            display: flexbox;
             display: block;
         }
         .filter-button{
             margin-top: 20px;
-            display: flexbox;
             display: block;
         }
         .filter-part{
-            display: flexbox;
             display: flex;
         }
         .filter-part a{
-            display: flexbox;
             padding: 15px;
             font-size: 15px;
             display: flex;
@@ -844,40 +657,32 @@ footer a{
         }
         .filter-part i{
             font-size: 20px;                                                                                 /*simbols inside buttons*/
-            display: flexbox;
             padding:0.5px;
             margin: 1px;
         }
         .info{
-            display: flexbox;
             margin-top: 20px;
             margin-bottom: 30px;
         }
-
         .hebergements-and-populaires{
-            display: flexbox;
             justify-content: center;
             flex-direction: column-reverse;
             align-items: center;
         }
 
         /****** Populaires ***********/
-       
      section.populaires{
         margin: 1px;
-        display: flexbox;
         padding: 20px;
         border-radius: 0%;
     }
     .populaires-cards{
         margin-top: 20px;
-        display: flexbox;
         width: 100%;
         display: block;
     }
     .populaires-cards .card{
         margin: 0;
-        display: flexbox;
         width: 100%;
     }
     .populaires-cards .card-content{
@@ -885,7 +690,6 @@ footer a{
     }
     
     .populaires-cards img {
-        display: flexbox;
         width: 100px;                                                                                       /*taille de l'image égal*/
         height: 136px;
         border-top-left-radius: 20px;
@@ -894,16 +698,13 @@ footer a{
 
         /****** Hebergements ***********/
     .hebergements {
-        display: flexbox;
         flex-direction: column-reverse;
         width: 100%;
     }
      .hebergements-and-populaires section{
-        display: flexbox;
         margin: 0;
     }
     section.hebergements{
-        display: flexbox;
         background-color: #fff;
         margin-bottom: 20px;
     }
@@ -914,52 +715,44 @@ footer a{
             /* burin */
     }
     .hebergements-cards img{
-        display: flexbox;
         width: 100%;                                                                                             /*taille de l'image*/
         height: 136px;
         border-top-left-radius: 20px;
         border-top-right-radius:  20px;
     }
     .hebergements-cards .card-rating {
-        display: flexbox;
         margin-bottom: 5px;
     }
 
         /*activités à marseille*/
         .container {
-            display: flexbox;
             display: flex;
             width: 100%;
             padding: 0 50px;
             box-sizing: border-box;
         }
         .activités {
-            display: flexbox;
             width: max-content;
             display: block;
             margin-bottom: 60px;
         }
         .activités-title {
-            display: flexbox;
             display: flex;
             justify-content: space-around;
             align-items: center;    
         }
         .activités-cards .card {
-            display: flexbox;
             display: block;
             padding: 0.5px;
             margin: 15px;
         }
         .activités-cards img {
-            display: flexbox;
             width: 320px;                                                                                   /*taille de l'image égal*/
             height: 160px;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
         }
         .activités-cards .card-content {
-            display: flexbox;
             width: 97%;
             padding-left: 15px;
             display: block;
@@ -968,17 +761,14 @@ footer a{
             box-sizing: border-box;
         }
         .activités-cards .card-title {
-            display: flexbox;
             font-size: 16px;
             display: flex; 
             width: max-content;
         }
         .content{
-            display: flexbox;
             margin-left: 10px;
         }
         footer section{
-            display: flexbox;
             background-color: #f2f2f2;
             display:flex;
             flex-direction:column;
@@ -990,14 +780,12 @@ footer a{
             gap: 25px;
         }
         footer a{
-            display: flexbox;
             align-items: start;
             text-align: start;
             flex-direction:column;
             display: flex;
         }
         footer .card-text{
-            display: flexbox;
             margin: 40px;
             margin-bottom:   60px;
         }
