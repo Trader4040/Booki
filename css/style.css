@@ -1,7 +1,6 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-    display: flexbox;
 }
 :root {
     --main-color: #0065FC;
